@@ -1,0 +1,92 @@
+.responseNodeCon{
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-evenly;
+    gap: 20px;
+    height: 190px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 4px rgb(172, 185, 197);
+
+    &Header{
+        display: flex;
+        height: 20%;
+        color: black;
+        border-bottom: 3px solid orangered;
+        // background-color: antiquewhite;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 3px;
+
+        &Box{
+            border-radius: 2px;
+            height: 20px;
+            width: 20px;
+            background-color: orangered;
+        }
+    
+    }
+
+    &Main{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        // background-color: green;
+        justify-content: center;
+
+        &Item{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+}
+
+.requestNodeCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 4px rgb(172, 185, 197);
+
+    &Header{
+        display: flex;
+        height: 20%;
+        color: black;
+        border-bottom: 3px solid orange;
+        // background-color: antiquewhite;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 3px;
+
+        &Box{
+            border-radius: 2px;
+            height: 20px;
+            width: 20px;
+            background-color: orange;
+        }
+    
+    }
+
+    &Main{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        // background-color: green;
+        justify-content: center;
+    }
+}

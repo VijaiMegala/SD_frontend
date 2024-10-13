@@ -1,0 +1,140 @@
+.mainCon{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ecfcff;
+}
+
+.headerCon{
+    height: 8%;
+    background-color: white;
+    padding: 0.5% 5%;
+
+    &Main{
+        display: flex;
+        height: 100%;
+        // background-color: green;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        color: black;
+        border-left: 2px solid ghostwhite;
+    }
+
+    &Dashboard{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        // background-color: pink;
+    }
+
+    &BtnGrp{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        // background-color: aquamarine;
+        font-size: 14px;
+    }
+
+    &BtnCancel{
+        color: orangered;
+        cursor: pointer;
+    }
+
+    &BtnDraft{
+        border: 1px solid black;
+        border-radius: 10px;
+        color: black;
+        padding: 2px 15px;
+        cursor: pointer;
+    }
+
+    &BtnSave{
+        display: flex;
+        align-items: center;
+        background-color: orangered;
+        gap: 5px;
+        border-radius: 10px;
+        color: white;
+        padding: 2px 15px;
+        cursor: pointer;
+    }
+}
+
+.reactFlowCon{
+    width: 80%;
+    height: 80%;
+    // background-color: white;
+    border-radius: 10px;
+    margin: 30px 10%;
+    color: black;
+
+    &Title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        font-size: large;
+        padding: 0px 10px;
+    }
+
+    &Main{
+        margin-top: 10px;
+        height: 90%;
+        border-radius: 10px;
+        background-color: white;
+    }
+}
+
+.flowControl{
+    gap: 10px;
+}
+
+.addNewNodeButton{
+    // width: 20px;
+    // height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid orange;
+
+    &:active{
+        background-color: white;
+        color: orange;
+    }
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.reactFlowConBtnGrp{
+    display: flex;
+    gap: 10px;
+}
+
+
+.testRunBtn{
+    width: fit-content;
+    background-color: orangered;
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 15px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+
+        &:active{
+            background-color: white;
+            color: orangered;
+        }
+        &:hover{
+            opacity: 0.8;
+        }
+}
